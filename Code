@@ -1,0 +1,23 @@
+Import csv
+
+Def write.info(info_list):
+    With open('student.csv','a',newline='' as csv-file:
+         Writer=csv.writer(csv file)
+
+         If csv_file.tell()==a:
+            Writer.writerow(["Name","Age","contact number ","Email id"])
+         Writer.writerow(info_list)
+
+Condition = true
+
+While(condition):
+    Student.information=input("enter student information in following forma")t(Name Age Contact number Email Id):"
+    Print (" please check the information'+student.information)
+    Student_list=student.information.split('')
+    Print(" entered splitup information is:"+str(student_list))
+    Write.info(student_list)   
+
+    Condition_check=input("enter (yes/no) if you want to enter information for another student:")
+    If condition_check== "yes":
+       Condition=true
+    Elif condition_check=="no":
